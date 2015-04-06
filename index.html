@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <title>葛小川`S个人主页-samdyli.GitHub.com by samdyli</title>
+<!-- BEGIN--meta -->
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--END--meta -->
+
+<!--BEGIN --Bootstrap--style-->
+ 	<link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<!--END --Bootstrap--link-->
+
+<!--BEGIN --headroom--style-->
+  <!-- @BUG--animate  active--undealed
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css" media="screen" />
+  @BUG-->
+<!--END --headroom--style-->
+
+<!-- BEGIN--other style -->
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
@@ -12,48 +27,160 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+<!-- END--other style -->
+<style type="text/css">
+    /* Custom Styles */
+    ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+    }
+.STYLE1 {color: #990066}
+</style>
 
-    <title>samdyli.GitHub.com by samdyli</title>
-  </head>
+</head>
 
-  <body>
+ <body data-spy="scroll" data-target="#myScrollspy">
   
-  <article>
-   <header>
-   <h2>李先得</h2>
-   <p>samdyli's blog!</p>
-   </header>
-  <a href="https://github.com/samdyli" class="button"><small>Follow me on</small> GitHub</a>
- <section>
-  <h3>Red Delicious</h3>
-  <p>These bright red apples are the most common found in many
-  supermarkets.</p>
- </section>
- <section>
-  <h3>Granny Smith</h3>
-  <p>These juicy, green apples make a great filling for
-  apple pies.</p>
- </section>
-</article>
+ <!-- BEGIN--nav -->
+  <div class="container">
+  <!-- BEGIN--nav -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+    
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	      <span class="sr-only">Toggle navigation</span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+      
+	     <a class="navbar-brand" href="http://www.samdyli.fanqir.com">samdyli</a>
+	  </div>
+
+	  <div class="collapse navbar-collapse navbar-ex1-collapse subMenu">
+	    <ul class="nav navbar-nav" id="top-nav">
+	      <li class="active"><a href="http://www.samdyli.fanqir.com"><i class="glyphicon glyphicon-home"></i>主页</a></li>
+	    <li ><a href="http://www.samdyli.fanqir.com/books" >技术书籍</a></li>
+	    <li ><a href="http://www.samdyli.fanqir.com/project" >项目经历</a></li>
+	    <li ><a href="http://www.samdyli.fanqir.com/blog" >博客</a></li>
  
+	      <li class="dropdown">
+	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">简历下载 <span class="glyphicon glyphicon-download-alt"></span> 
+          <b class="caret"></b>
+          </a>
+	        <ul class="dropdown-menu" >
+	          <li><a href="https://github.com/gmszone/RESUME/blob/master/Personal/all.pdf?raw=true">全版本</a></li>
+	          <li><a href="https://github.com/gmszone/RESUME/blob/master/Personal%20Web/web.pdf?raw=true">web专用</a></li>
+	          <li><a href="https://github.com/gmszone/RESUME/blob/master/Personal%20Embeded/Embeded.pdf?raw=true">嵌入式专用</a></li>
+	          <li><a href="https://github.com/gmszone/RESUME/blob/master/word/Phodal%20Huang.docx?raw=true">Word</a></li>
+	        </ul>
+	      </li>
+	    </ul>
+	     <form name="search-highlight" id="search-highlight" method="post" action="#" class="navbar-form navbar-right" role="search">
+	        <input name="term" id="term" class="text form-control2" placeholder="页面内搜索"/>
+	        <input type="submit" name="submit" id="submit" class="btn btn-info" value="搜索" />
+	    </form>
+	  </div><!-- END--.navbar-collapse -->
+	</nav>
+	</div> <!-- END--.container-->
+ <!-- END--nav -->  
+ 
+ <!-- BEGIN--header -->
+ <div class="jumbotron">
+   <header>
+   <h1>Samdyli`s 个人主页 <a href="https://github.com/samdyli" class="btn btn-success"><small>Follow me on</small> GitHub</a></h1>
+   <p>github主页:<a href="https://github.com/samdyli" class="active success STYLE1">https://github.com/samdyli</a>
+   个人主页：<a href="https://www.samdyli.fanqir.com" class="active STYLE1">https://github.com/samdyli</a>
+   </p>
+   </header>
+ </div>
+ <!-- END--head -->
+ 
+ <!-- BEGIN--Vertical-nav -->
+   <div class="row">
+    <div class="col-xs-2" id="myScrollspy">
+        <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+            <li class="active"><a href="#section-1">基本信息</a></li>
+            <li><a href="#section-2">项目和社会经历</a></li>
+            <li><a href="#section-3">专业技能</a></li>
+            <li><a href="#section-4">获得荣誉</a></li>
+            <li><a href="#section-5">英语技能</a></li>
+        </ul>
+  </div>
+<!-- End--Vertical-nav -->
 
+<!-- BEGIN --Content-->
+ 
+<div class="col-xs-10">
+<h2 id="section-1">基本信息</h2>
+<br/>
+<p>毕业院校:中国科学院大学沈阳计算技术研究所</p>
+<p> 邮 件:samdyli_job@126.com     电 话：15600601957.</p>
+<hr>
+<h2 id="section-2">近期项目和社会经历</h2>
+<br/>
+<p>2014年3月 基于MFC的C/S模式的五子棋游戏对战平台开发，负责底层类的设计与实现；上层类通信接口的实现；消息格式的设计与实现；服务器消息处理机制的设计</p>
+<p>2014年8月 Intel基于Arduino的Edsion预售板“Smart Tank”项目，负责温度，噪声采集，wifi通信，图像的获取与显示</p>
+<p>2014年10月 基于开源的APM无人机超声波测距项目，负责设计APM源码HAL层，超声测距功能，测距方法切换机制</p>
+<hr>
+<h2 id="section-3">专业技能</h2>
+<br/>
+<p>擅长C语言及其相关技术，尤其是Linux下C编程</p>
+<p>熟练掌握C++语言，MFC。写过许多多线程，网络通信程序</p>
+<p>悉Linux平台下的编程和系统管理，对gcc,gdb,makefile有一定的研究，掌握Shell脚本编程，熟悉git版本控制 </p>
+<p>对开源抱有浓厚的兴趣，经常在github上参与自己喜欢的开源项目</p>
+<p>喜欢研究大数据，信息检索相关的技术，在中科院修学位课程时参加了相关的研究项目</p>
+<hr>
+<h2 id="section-4">获得奖励</h2>
+<br/>
+<p>全国大学生数学建模大赛 二等奖奖</p>
+<hr>
+<h2 id="section-5">英语技能</h2>
+<br/>
+ <p>通过英语六级460分，曾在“计算机辅助制造、工程与数控中数学与算法国际会议”做过Presentation</p>
+ </div> <!-- END--.col-xs-10-->
+</div> <!-- END--.row -->
+<!-- END--Content -->
 
-  <div class="inner clearfix">
-        <section id="main-content">
-          <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to samdyli's blogs</h3>
-          <p>English CV</p>
-      <h3><a name="name"></a>English Name:<code>samdyli</code>
-            </p>
-        </h3>
-          <p>&nbsp;</p>
-                <aside id="sidebar">
-
-
-  <p><img name="" src="葛小川头像.jpg" width="114" height="160" alt=""></p>
-        </aside>
-                </h3>
-      </div>
-    </div>
->
+<!--BEGIN--SCRIPT AREA将JavaScript代码放在Body底部是一个好的习惯-->
+    
+    
+    <!--BEGIN --Bootstrap--script -->
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   
+    <!--END --Bootstrap--script -->
+ <!-- END--SCRIPT -->
+ 
+ </body>
 </html>
