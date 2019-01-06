@@ -1,5 +1,3 @@
-# samdyli.github.com
-personal tec blog
-#Í·²¿navµ¼º½²Î¿¼
-#¸½¼Óµ¼º½£¨Affix£©Ê¹ÓÃ²Î¿¼ http://www.ziqiangxuetang.com/bootstrap/bootstrap-affix-plugin.html Ğ§¹ûÈç http://www.ziqiangxuetang.com/demo/bootstrap3-plugin-affix1.htmËùÊ¾¡£
+# samdyli(è‘›å°å·)-ä¸ªäººåšå®¢ <samdyli.github.com>
+
 
