@@ -1,0 +1,21 @@
+---
+layout: default
+title: samdyli的技术博客
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <ul class="posts">
+  </ul>
+
+  <h1>参与开源项目列表/h1>
+  <ul class="posts">
+	  <li><a href="https://github.com/samdyli/architect-awesome">后端架构师技术图谱-samdyli</a></li>
+  </ul>
+</div>
