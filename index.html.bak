@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>samdyli`S个人主页-samdyli.GitHub.com by samdyli</title>
+  <title>葛小川`S个人主页-samdyli.GitHub.com by samdyli</title>
 <!-- BEGIN--meta -->
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -131,6 +131,8 @@
     <div class="col-xs-2" id="myScrollspy" style="padding-right:1px; float:left">
         <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
             <li class="active"><a href="#section-1">基本信息</a></li>
+            <li><a href="#section-2">教育背景</a></li>
+            <li><a href="#section-3">项目与实习经历</a></li>
             <li><a href="#section-4">专业技能</a></li>
             <li><a href="#section-5">获得奖励</a></li>
             <li><a href="#section-6">个人评价</a></li>
@@ -142,9 +144,25 @@
 <div class="col-xs-10">
 <h2 id="section-1">基本信息</h2>
 <br/>
-
-<p>姓名：samdyli            邮箱：<a href="mailto:samdyli_job@126.com">samdyli_job@126.com</a></p>
-<p>github主页：<a href="https://github.com/samdyli">https://github.com/samdyli</a> 个人主页：<a href="samdyli.github.io">samdyli.github.io</a></p>
+<p>姓名：葛 小 川</p>
+<p>电话：15600601957  邮箱：<a href="mailto:samdyli_job@126.com">samdyli_job@126.com</a></p>
+<p>中关村南四街4号中国科学院软件园区2号楼 (100190) 现居：北京</p>
+<hr>
+<h2 id="section-2">教育背景</h2>
+<p>2014年9月-至今             中国科学院沈阳计算所    计算机技术          在读硕士</p>
+<p>2013年9月-2014年7月              中国科学院大学         计算机技术        硕士代培</p>
+<p>2009年9月-2013年月7月            河南工程学院           计算机科学与技术       本科</p>
+<p>&nbsp;</p>
+<hr>
+<h2 id="section-3">项目与实习经历</h2>
+<br/>
+<p>2014年11-12月：基于Struts2,Spring,Hibernate的特产电子商务网站建设，负责实体类的设计及对应的持久化层映射与关联；Action的设计与相应请求方法的编写；</p>
+<p>DAO与Service层的接口设计；预留了基于JSON的android，ios等移动端的数据传输接口； </p>
+<p> 2014年8月-9月：基于Servlet的某大学数学学院精品课程网站建设，采用了MVC模式，使用反射等技术封装了HTTP请求，简化了和统一了对请求的细节处理；</p>
+<p>前台使用了JQuery/Ajax等技术实现了栏目菜单以及异步请求； </p>
+<p> 2014年9月-2015年1月: 在JBR06机器人的LT CNC-Motion中实现运动学测量和自	标定；设计了一种特殊的测量台，</p>
+<p>使用D-H法和最小二乘法求解法兰坐标系下机器	人末端连杆的长度；</p>
+<p> 2012年2月-6月郑州易灵信软件开发公司从事C++软件开发，配合需求分析，完成公司无线管理软件的设计和编码实现。</p>
 <hr>
 <h2 id="section-4">专业技能</h2>
 <br/>
@@ -160,12 +178,12 @@
  <p>2014年8月  CSDN开源夏令营 优秀开题报告</p>
  <p>2014年6月  中国科学院 优秀志愿者</p>
  <p>2012年12月 英语六级（441）</p>
- <hr>
- <h2 id="section-6">个人评价</h2>
+ 
+ <h2 id="section-5">个人评价</h2>
 <br/>
  <p>喜欢篮球，跑步，冒险刺激的运动。对新技术和数据敏感，学习能力强。性格乐观豁达，与人关系融洽。</p>
  <p>相信“天生我才必有用”，总能以积极的态度迎接未知挑战。</p>
- <hr>
+ <p>github主页：<a href="https://github.com/samdyli">https://github.com/samdyli</a> 个人主页：<a href="http://www.samdyli.fanqir.com">http://www.samdyli.fanqir.com</a></p>
 </div> 
 </div> 
 <!-- END--.row -->
