@@ -1,5 +1,0 @@
-markdown: rdiscount
-pygments: true
-webrick:
-  headers:
-    My-Header: samdyli`s blog

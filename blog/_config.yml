@@ -1,6 +1,8 @@
 markdown: rdiscount
 pygments: true
 show_drafts: null
+gems: [liquid_reading_time]
+ # This will require each of these gems automatically.
 # 自定义头部
 webrick:
   headers:
@@ -14,3 +16,5 @@ defaults:
     values:
       layout: "default"
       author: "samdyli"
+      excerpt_separator: <!--more--> # 指定摘要结束符
+ 
