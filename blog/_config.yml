@@ -1,2 +1,16 @@
 markdown: rdiscount
 pygments: true
+show_drafts: null
+# 自定义头部
+webrick:
+  headers:
+    My-Header: samdyli`s blog
+
+
+defaults:
+  -
+    scope:
+      path: "" # 一个空的字符串代表项目中所有的文件
+    values:
+      layout: "default"
+      author: "samdyli"
