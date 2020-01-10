@@ -95,11 +95,13 @@
 	    <li ><a href="samdyli.github.io/blog" >博客</a></li>
 	    </ul>
 
+	    <div style="float:right">
 	    <form target="_blank" action="http://zhannei.baidu.com/cse/site">
 		    <input type="text" name="q" size="30">
 		    <input type="submit" value="搜索">
 		    <input type="hidden" name="cc" value="samdyli.github.io">
 	    </form>
+    </div>
 	  </div>
 	</nav>
 	</div> <!-- END--.container-->
