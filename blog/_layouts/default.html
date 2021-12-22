@@ -77,6 +77,14 @@ var WRInitTime=(new Date()).getTime();
 <!-- ClickTale Bottom part -->
 <div id="ClickTaleDiv" style="display: none;"></div>
 <script type="text/javascript">
+	const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '20720-1584493437432-728',
+        name: '非典型理科男',
+        qrcode: 'https://user-gold-cdn.xitu.io/2020/3/4/170a62400cb92150?w=258&h=258&f=png&s=27012',
+        keyword: 'more',
+    });
 if(document.location.protocol!='https:')
   document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
 </script>
@@ -146,16 +154,6 @@ document.write("您是第" + visits + "位访问本专题的！")
 // -->
 </script>
 <script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
-<script>
-    const btw = new BTWPlugin();
-    btw.init({
-        id: 'container',
-        blogId: '20720-1584493437432-728',
-        name: '非典型理科男',
-        qrcode: 'https://user-gold-cdn.xitu.io/2020/3/4/170a62400cb92150?w=258&h=258&f=png&s=27012',
-        keyword: 'more',
-    });
-</script>
  <!-- END--SCRIPT -->
 <!-- Google Analytics end -->
 
